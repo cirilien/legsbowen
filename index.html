@@ -1,9 +1,45 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>NEED SOME HUAISANG? SAY NO MORE</title>
+  <meta charset="utf-8">
+  <style>
+    body {
+      text-align: center;
+      margin: 3em;
+    }
+    img {
+      border: solid 2px #fff;
+      max-width: 80%;
+      max-height: 80%;
+    }
+
+    .frame {
+      display: inline-block;
+      margin: auto;
+      background-color: #eee;
+      border: solid 5vmin #333;
+      border-top-color: #000;
+      border-right-color: #222;
+      border-bottom-color: #333;
+      border-left-color: #222;
+      border-radius: 2px;
+      box-shadow: 0 0 5px 0 rgba(0, 0, 0, .25) inset, 0 5px 10px 5px rgba(0, 0, 0, .25);
+      box-sizing: border-box;
+      padding: 5vmin;
+      position: relative;
+    }
+  </style>
 </head>
+
 <body>
-  <img src="images/huaisang4.png" alt="Image of Nie Huaisang also known as best boy" />
+  <noscript>
+    <p>No javascript?? That's fair. Here's a picture of Nie Huaisang as a reward for your good choices</p>
+    <img src="images/huaisang4.png" alt="Image of Nie Huaisang" />
+  </noscript>
+  <div class="frame"><img id="directorHuisang" alt="Image of Nie Huaisang" /></div>
+  <script src="./script.js"></script>
 </body>
+
 </html>
