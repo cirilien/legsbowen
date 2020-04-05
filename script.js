@@ -55,7 +55,7 @@ function randomImgSrc() {
 }
 
 function updateImgSrc() {
-  const img = document.querySelector("#directorHuisang");
+  const img = document.querySelector("#legsOfBourne");
   img.setAttribute("src", randomImgSrc());
 }
 
