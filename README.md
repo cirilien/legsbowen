@@ -1,3 +1,3 @@
-# huaisang
+# legsbowen
 
-[See the Huaisang in action](https://cirilien.github.io/huaisang/)
+[See the the Legs in action](https://cirilien.github.io/legsbowen/)
