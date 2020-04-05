@@ -55,8 +55,11 @@ function randomImgSrc() {
 }
 
 function updateImgSrc() {
+  const imgSrc = randomImgSrc();
+  const bg = document.querySelector("#chaos");
   const img = document.querySelector("#legsOfBourne");
-  img.setAttribute("src", randomImgSrc());
+  bg.setAttribute("style", `background-image: url(${imgSrc});`);
+  img.setAttribute("src", imgSrc);
 }
 
 updateImgSrc();

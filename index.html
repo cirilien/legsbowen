@@ -7,31 +7,33 @@
   <style>
     body {
       text-align: center;
-      margin: 3em;
+      margin: 0;
+      padding: 0;
       font-family: sans-serif;
       color: #444
     }
-    img {
-      border: solid 2px #fff;
-      max-width: 100%;
-      max-height: 100%;
+
+    .bg {
+      height: 100vh;
+      background-size: 200px;
+      padding: 30px;
     }
 
-    .frame {
+    p {
       display: inline-block;
-      margin: auto;
-      background-color: #eee;
-      border: solid 5vmin #333;
-      border-top-color: #000;
-      border-right-color: #222;
-      border-bottom-color: #333;
-      border-left-color: #222;
-      border-radius: 2px;
-      box-shadow: 0 0 5px 0 rgba(0, 0, 0, .25) inset, 0 5px 10px 5px rgba(0, 0, 0, .25);
-      box-sizing: border-box;
-      padding: 5vmin;
-      position: relative;
+      margin: 0;
+      padding: 10px;
+      background: white;
+      border-radius: 5px;
+
     }
+    img {
+      border: solid 5px #fff;
+      max-width: 50%;
+      max-height: 100%;
+      margin: 50px;
+    }
+
   </style>
 </head>
 
@@ -40,8 +42,12 @@
     <p>No javascript?? That's fair. Here's a picture of Li Bowen as a reward for your good choices</p>
     <img src="images/bowen14.png" alt="Image of Li Bowen" />
   </noscript>
-  <p>Refresh for more of Sir Legs</p>
-  <div class="frame"><img id="legsOfBourne" alt="Image of Li Bowen aka Leg Bowen aka Bourne aka disaster of my heart" /></div>
+  <div id="chaos" class="bg">
+    <p>Refresh for more of Sir Legs</p>
+    <div class="frame">
+      <img id="legsOfBourne" alt="Image of Li Bowen aka Leg Bowen aka Bourne aka disaster of my heart" />
+    </div>
+  </div>
   <script src="./script.js"></script>
 </body>
 
