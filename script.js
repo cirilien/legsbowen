@@ -61,7 +61,10 @@ function updateImgSrc() {
   const ogImg = document.querySelector("meta[property='og:image']");
   bg.setAttribute("style", `background-image: url(${imgSrc});`);
   img.setAttribute("src", imgSrc);
-  ogImg.setAttribute("content", imgSrc); // i have no idea if this will work YOLO
+  ogImg.setAttribute(
+    "content",
+    `https://cirilien.github.io/legsbowen/${imgSrc}`
+  ); // i have no idea if this will work YOLO
 }
 
 updateImgSrc();
