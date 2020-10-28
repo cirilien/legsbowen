@@ -38,7 +38,6 @@ const images = [
   "bowen38.JPG",
   "bowen39.JPG",
   "bowen40.JPG",
-  "bowen41.JPG",
   "bowen42.JPG",
   "bowen43.JPG",
   "bowen44.JPG",
